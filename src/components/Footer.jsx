@@ -1,9 +1,7 @@
 import React from 'react';
-
-//Images
-import puyol2 from '../assets/footer/desktop2/puyol2.png'
-import drogba2 from '../assets/footer/desktop2/drogba2.png'
-import terry2 from '../assets/footer/desktop2/terry2.png'
+import '../styles/components/Footer.css'
+import arrow from '../assets/footer/arrow.png'
+import logo from '../assets/footer/playerlounge.png'
 
 const Footer = () => {
   return (
@@ -11,13 +9,19 @@ const Footer = () => {
 
       <section className='Footer-cards'>
         <h1>CHECK OUT COLLECTIBLES</h1>
-        <img src={puyol2} alt='Carles Puyol'/>
-        <img src={drogba2} alt='Didier Drogba'/>ss
-        <img src={terry2} alt='Jhon Terry'/>
+        <div className='Soccer-players'>
+          <div/> <div/> <div/> <div/>
+        </div>
+        <button>
+          <img src={arrow} alt='Arrow up'/>
+          <p>Buy now</p>
+        </button>
       </section>
 
       <section className='Footer-links'>
+        <img src={logo} alt='Player lounge' />
         <h3>Links</h3>
+        <p>Copyright, 2021 Player Lounge</p>
       </section>
 
     </section>
