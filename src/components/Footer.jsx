@@ -1,4 +1,7 @@
 import React from 'react'
+import '../styles/components/Footer.css'
+import arrow from '../assets/footer/arrow.png'
+import logo from '../assets/footer/playerlounge.png'
 
 const Footer = () => {
   return (
@@ -6,14 +9,19 @@ const Footer = () => {
 
       <section className='Footer-cards'>
         <h1>CHECK OUT COLLECTIBLES</h1>
-        <img className='' alt='Carles Puyol' />
-        <img className='' alt='Didier Drogba' />
-        <img className='' alt='Jhon Terry' />
-        <img className='' alt='Roberto Carlos' />
+        <div className='Soccer-players'>
+          <div /> <div /> <div /> <div />
+        </div>
+        <button>
+          <img src={arrow} alt='Arrow up' />
+          <p>Buy now</p>
+        </button>
       </section>
 
       <section className='Footer-links'>
+        <img src={logo} alt='Player lounge' />
         <h3>Links</h3>
+        <p>Copyright, 2021 Player Lounge</p>
       </section>
 
     </section>
