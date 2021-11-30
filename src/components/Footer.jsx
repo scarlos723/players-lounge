@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Footer = () => {
   return (
@@ -6,10 +6,10 @@ const Footer = () => {
 
       <section className='Footer-cards'>
         <h1>CHECK OUT COLLECTIBLES</h1>
-        <img className='' alt='Carles Puyol'/>
-        <img className='' alt='Didier Drogba'/>
-        <img className='' alt='Jhon Terry'/>
-        <img className='' alt='Roberto Carlos'/>
+        <img className='' alt='Carles Puyol' />
+        <img className='' alt='Didier Drogba' />
+        <img className='' alt='Jhon Terry' />
+        <img className='' alt='Roberto Carlos' />
       </section>
 
       <section className='Footer-links'>
@@ -17,7 +17,7 @@ const Footer = () => {
       </section>
 
     </section>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
