@@ -1,12 +1,12 @@
 import React from 'react'
 import HowItWorks from '../components/HowItWorks.jsx'
+import Banner from '../components/Banner'
 
 function App () {
   return (
     <>
-      <div className='App'>
-        <h1>Home</h1>
-      </div>
+
+      <Banner />
       <HowItWorks />
     </>
   )

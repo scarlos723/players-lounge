@@ -48,6 +48,7 @@ export const BoxButtons = styled.section`
   margin-top: 20px;
   width: 292px;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
   ${ResponsiveTo()} {
     margin-top: 40px;
