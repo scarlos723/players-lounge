@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 h2,
 h3,
@@ -9,6 +9,29 @@ p {
 section {
   display: flex;
   flex-direction: column;
+  padding: 5rem 1.5rem;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: 320px 320px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  section {
+    grid-template-columns: 675px 675px;
+  }
 }
 
 section > h2 {
@@ -22,6 +45,12 @@ section > h2 {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 768px) {
+  section > h2 {
+    grid-column: 1 / span 2;
+  }
+}
+
 .step > span {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -29,6 +58,21 @@ section > h2 {
   font-size: 5rem;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #0F0223;
+}
+
+@media (min-width: 1024px) {
+  .step {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    max-width: initial;
+  }
+  .step > span {
+    text-align: right;
+    font-size: 9rem;
+    line-height: 92%;
+    width: 200px;
+  }
 }
 
 .step-description > h3 {
@@ -45,4 +89,17 @@ section > h2 {
   font-size: 1.25rem;
   line-height: 109%;
   color: #0F0223;
+}
+
+@media (min-width: 1024px) {
+  .step-description > p {
+    font-size: 21px;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .step-description > p {
+    max-width: 500px;
+  }
 }
