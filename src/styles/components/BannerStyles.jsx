@@ -20,7 +20,7 @@ export const ImageBanner = styled.div`
   background-position-x: center;
   background-position-y: center;
   ${ResponsiveTo()} {
-    height: 945px;
+    height: 955px;
   }
 `
 export const BePartSection = styled.section`
