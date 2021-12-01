@@ -1,4 +1,5 @@
 .rarible {
+  box-sizing: border-box;
   padding: 4rem 1.5rem;
   font-family: 'Montserrat', sans-serif;
   color: #0C0C0C;
@@ -11,6 +12,7 @@
     grid-template-columns: 11rem 1fr;
     gap: 3rem 1.5rem;
     max-width: 560px;
+    padding: 0;
     margin: 0 auto;
   }
 
@@ -46,12 +48,14 @@
 @media (min-width: 768px) {
   .rarible > h2 {
     margin: 0;
+    align-self: center;
   }
 }
 
 @media (min-width: 1024px) {
   .rarible > h2 {
     font-size: 4rem;
+    align-self: flex-start;
   }
 }
 
