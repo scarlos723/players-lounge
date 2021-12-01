@@ -1,0 +1,73 @@
+.rarible {
+  padding: 4rem 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #0C0C0C;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .rarible {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: 3rem 1.5rem;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .rarible > img {
+    justify-self: end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rarible {
+    max-width: 1024px;
+    row-gap: 1.75rem ;
+  }
+  .rarible > img {
+    justify-self: start;
+  }
+}
+
+.rarible > h2 {
+  font-weight: 800;
+  font-size: 2.125rem;
+  line-height: 113%;
+  text-transform: uppercase;
+  margin: 0.75rem 0 0.5rem;
+}
+
+@media (min-width: 480px) {
+  .rarible > h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .rarible > h2 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rarible > h2 {
+    font-size: 4rem;
+  }
+}
+
+.rarible > p {
+  font-size: 1.25rem;
+  line-height: 109%;
+}
+
+@media (min-width: 768px) {
+  .rarible > p {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rarible > p {
+    grid-column-start: 2;
+  }
+}

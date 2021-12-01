@@ -3,7 +3,7 @@ import '../styles/components/HowItWorks.css'
 
 export default function HowItWorks () {
   return (
-    <section>
+    <section className='how-it-works'>
       <h2>How it works</h2>
       <div className='step'>
         <span>01</span>

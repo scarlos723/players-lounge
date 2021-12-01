@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 h2,
 h3,
 p {
   margin: 0;
 }
 
-section {
+.how-it-works {
   display: flex;
   flex-direction: column;
   padding: 5rem 1.5rem;
@@ -14,7 +12,7 @@ section {
 }
 
 @media (min-width: 768px) {
-  section {
+  .how-it-works {
     display: grid;
     grid-template-columns: 320px 320px;
     justify-content: center;
@@ -22,19 +20,19 @@ section {
 }
 
 @media (min-width: 1024px) {
-  section {
+  .how-it-works {
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
   }
 }
 
 @media (min-width: 1440px) {
-  section {
+  .how-it-works {
     grid-template-columns: 675px 675px;
   }
 }
 
-section > h2 {
+.how-it-works > h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: 700;
@@ -46,7 +44,7 @@ section > h2 {
 }
 
 @media (min-width: 768px) {
-  section > h2 {
+  .how-it-works > h2 {
     grid-column: 1 / span 2;
   }
 }
