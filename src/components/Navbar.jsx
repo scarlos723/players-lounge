@@ -11,7 +11,7 @@ export default () => {
   }
   return (
     <Container>
-      <Logo />
+      <Logo to='/' />
       <Navbar showMenu={showMenu}>
         <Menu>
           <li> <a href='#'> Players </a>  </li>

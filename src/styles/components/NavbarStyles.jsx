@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components'
 import PlLogo from '../../assets/Navbar/PLLogo.png'
 import MenuLogoImg from '../../assets/Navbar/MenuLogo.png'
 import { ResponsiveTo } from '../../hooks/useResponsive'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   width: 100%;
@@ -43,7 +44,7 @@ export const Navbar = styled.nav`
 
 
 `
-export const Logo = styled.div`
+export const Logo = styled(Link)`
   width: 127px;
   height: 94px;
   background-image: url(${PlLogo});
