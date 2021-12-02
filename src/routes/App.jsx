@@ -9,7 +9,7 @@ const App = () => {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/players-lounge' element={<Home />} />
         </Routes>
       </Layout>
     </BrowserRouter>
