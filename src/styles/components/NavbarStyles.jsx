@@ -27,10 +27,14 @@ export const Navbar = styled.nav`
   display: none;
   position: absolute;
   background-color: #0F0223;
-  top: 100px;
+  top:200px;
   width: 100%;
   ${props => props.showMenu &&
-    css`display:flex; flex-direction:column;`
+    css`
+      display:flex; 
+      flex-direction:column;
+      justify-content: center;
+    `
 
   }
   ${ResponsiveTo()}{
@@ -110,14 +114,18 @@ export const SearchBar = styled.div`
 export const RegisterBtn = styled.button`
   width: 151px;
   height: 45px;
-  left: 1621px;
-  top: 93px;
   font-size: 18px;
   font-weight: 700;
   background: #FFFFFF;
   border-radius: 57px;
-  margin: 10px auto;
-  margin-right: 59px;
+  margin: 0 auto;
+
+  ${ResponsiveTo()}{
+    margin: 10px auto;
+    margin-right: 59px;
+    left: 1621px;
+    top: 93px;
+  }
 `
 
 export const MenuLogo = styled.div`
