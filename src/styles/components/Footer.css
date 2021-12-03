@@ -123,6 +123,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 1px red solid;
+  height: auto;
 }
 
 .Footer-cards h1{
@@ -136,46 +138,42 @@
 
 .Soccer-players{
   width: 100%;
-  height: 800px;
+  height: 700px;
+  display: flex;
+  margin-top: 100px;
+}
+
+.Soccer-players div{
+  margin-right: 50px;
 }
 
 .Soccer-players div:nth-child(1){
-  width: 80%;
-  height: 25%;
-  background-image: url("../../assets/footer/mobile/puyolm.png");
+  width: 50%;
+  height: 532.83px;
+  background-image: url("../../assets/footer/desktop2/puyol2.png");
   background-size: cover;
-  position: relative;
-  left: -35%;
 }
 
 .Soccer-players div:nth-child(2){
-  width: 20%;
-  height: 25%;
-  background-image: url("../../assets/footer/mobile/drogbam.png");
-  background-size: contain;
+  width: 25%;
+  height: 532.83px;
+  background-image: url("../../assets/footer/desktop2/drogba2.png");
   background-repeat: no-repeat;
-  position: relative;
-  left: 80%;
-  top: -25%;
 }
 
 .Soccer-players div:nth-child(3){
-  width: 50%;
-  height: 50%;
-  background-image: url("../../assets/footer/mobile/terrym.png");
+  width: 25%;
+  height: 532.83px;
+  background-image: url("../../assets/footer/desktop2/terry2.png");
   background-size: cover;
-  position: relative;
-  top: -15%;
 }
 
 .Soccer-players div:nth-child(4){
-  width: 40%;
-  height: 40%;
-  background-image: url("../../assets/footer/mobile/rcarlosm.png");
+  width: 25%;
+  height: 532.83px;
+  background-image: url("../../assets/footer/desktop1/rcarlos.png");
   background-size: cover;
-  position: relative;
-  top: -60%;
-  left: 60%;
+  margin-right: 0px;
 }
 
 .Footer-cards button{
