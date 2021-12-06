@@ -8,7 +8,6 @@ export default () => {
       <HeaderContainer>
         <ImageBox />
         <Title>
-
           Curated drops of unique physical and digital NFTs
         </Title>
       </HeaderContainer>
