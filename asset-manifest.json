@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/players-lounge/static/css/main.bcff57c3.chunk.css",
-    "main.js": "/players-lounge/static/js/main.0d0ffc6a.chunk.js",
-    "main.js.map": "/players-lounge/static/js/main.0d0ffc6a.chunk.js.map",
+    "main.css": "/players-lounge/static/css/main.afb8305f.chunk.css",
+    "main.js": "/players-lounge/static/js/main.a75ca4ec.chunk.js",
+    "main.js.map": "/players-lounge/static/js/main.a75ca4ec.chunk.js.map",
     "runtime-main.js": "/players-lounge/static/js/runtime-main.809826c6.js",
     "runtime-main.js.map": "/players-lounge/static/js/runtime-main.809826c6.js.map",
     "static/js/2.a953251c.chunk.js": "/players-lounge/static/js/2.a953251c.chunk.js",
     "static/js/2.a953251c.chunk.js.map": "/players-lounge/static/js/2.a953251c.chunk.js.map",
     "index.html": "/players-lounge/index.html",
-    "static/css/main.bcff57c3.chunk.css.map": "/players-lounge/static/css/main.bcff57c3.chunk.css.map",
+    "static/css/main.afb8305f.chunk.css.map": "/players-lounge/static/css/main.afb8305f.chunk.css.map",
     "static/js/2.a953251c.chunk.js.LICENSE.txt": "/players-lounge/static/js/2.a953251c.chunk.js.LICENSE.txt",
     "static/media/BannerImage.221a6d41.png": "/players-lounge/static/media/BannerImage.221a6d41.png",
     "static/media/Footer.css": "/players-lounge/static/media/terrym.9b9cba2f.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.809826c6.js",
     "static/js/2.a953251c.chunk.js",
-    "static/css/main.bcff57c3.chunk.css",
-    "static/js/main.0d0ffc6a.chunk.js"
+    "static/css/main.afb8305f.chunk.css",
+    "static/js/main.a75ca4ec.chunk.js"
   ]
 }
