@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/players-lounge/static/css/main.afb8305f.chunk.css",
-    "main.js": "/players-lounge/static/js/main.a75ca4ec.chunk.js",
-    "main.js.map": "/players-lounge/static/js/main.a75ca4ec.chunk.js.map",
+    "main.js": "/players-lounge/static/js/main.a1788f4e.chunk.js",
+    "main.js.map": "/players-lounge/static/js/main.a1788f4e.chunk.js.map",
     "runtime-main.js": "/players-lounge/static/js/runtime-main.809826c6.js",
     "runtime-main.js.map": "/players-lounge/static/js/runtime-main.809826c6.js.map",
     "static/js/2.a953251c.chunk.js": "/players-lounge/static/js/2.a953251c.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.809826c6.js",
     "static/js/2.a953251c.chunk.js",
     "static/css/main.afb8305f.chunk.css",
-    "static/js/main.a75ca4ec.chunk.js"
+    "static/js/main.a1788f4e.chunk.js"
   ]
 }
