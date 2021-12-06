@@ -6,7 +6,7 @@ import sm from '../assets/footer/socialmedia.png'
 
 const Footer = () => {
   return (
-    <section className='Footer'>
+    <section className='Footer' style={{ marginTop: 100 }}>
 
       <section className='Footer-cards'>
         <h1>CHECK OUT COLLECTIBLES</h1>
